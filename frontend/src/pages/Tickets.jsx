@@ -52,6 +52,15 @@ export default function Tickets() {
 
   return (
     <div className="relative z-10 max-w-6xl mx-auto px-6 py-8 pb-16">
+      {/* Top Right Logs Button */}
+    <div className="absolute top-5 right-5">
+      <button
+        onClick={() => window.open("/logs", "_blank")}
+        className="bg-purple hover:bg-purpled text-black font-bold px-4 py-2 rounded-xl text-sm shadow-lg transition-all hover:scale-105"
+      >
+        📜 Logs
+      </button>
+    </div>
 
       {/* Header */}
       <div className="flex items-center justify-center mb-8 pb-6 border-b border-purple/15">
