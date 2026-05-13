@@ -510,6 +510,15 @@ export default function Index() {
 
   return (
     <div className="relative z-10 min-h-screen flex items-center justify-center px-4 py-6">
+      {/* Top Right Button */}
+    <div className="absolute top-5 right-5">
+      <button
+        onClick={() => window.open("/logs", "_blank")}
+        className="bg-purple hover:bg-purpled text-black font-bold px-4 py-2 rounded-xl text-sm shadow-lg transition-all hover:scale-105"
+      >
+        📜 Logs
+      </button>
+    </div>
       <div className="w-full max-w-md animate-slideUp">
 
         {/* Header */}
