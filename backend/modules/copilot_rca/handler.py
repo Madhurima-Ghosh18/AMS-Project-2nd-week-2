@@ -2,7 +2,7 @@
 
 from .agent import generate_fresh_rca
 from .service import get_confidence_label, get_rca_summary
-from repositories.ticket_repository import update_ticket_rca
+from backend.repositories.ticket_repository import update_ticket_rca
 
 
 async def handle_rca_flow(state: dict) -> dict:
