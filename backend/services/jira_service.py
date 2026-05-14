@@ -3,8 +3,8 @@
 import httpx
 import re
 
-from backend.core.config import Config
-from backend.repositories.ticket_repository import get_all_tickets
+from core.config import Config
+from repositories.ticket_repository import get_all_tickets
 
 auth = (Config.JIRA_EMAIL, Config.JIRA_API_TOKEN)
 
